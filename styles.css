@@ -10,7 +10,8 @@ div.parent{
     overflow:hidden;
     
 }
-div div{
+div div.child
+{
     display:flex;
      font-size: x-small;
     justify-content: center;
