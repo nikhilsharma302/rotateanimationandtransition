@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+div.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color:lightblue;
+    overflow:hidden;
+    
+}
+div div{
+    display:flex;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:red
+}
+
+
+div.parent:hover div.child{
+    animation: rotate 10s infinite both;
+}
+      @keyframes rotate{
+        100%{
+            background-color:blue;
+          transform:translate(100vw,100vh) scale(2) rotate(360deg);
+        
+            
+        }
+      }
