@@ -30,6 +30,7 @@ div.parent:hover div.child{
         100%{
             background-color:blue;
           transform:translate(100vw,100vh) scale(2) rotate(360deg);
+          color:white;
         
             
         }
